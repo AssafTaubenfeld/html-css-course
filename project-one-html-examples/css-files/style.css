@@ -44,3 +44,39 @@ Img {
 	border-radius: 50%;
 	box-shadow: 9px 9px 10px black;
 }
+
+.box {
+    border: 96px solid green;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    size: 100px;
+    display: inline;
+    background-color: grey;
+}
+
+.flex {
+    margin: 10px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid blueviolet;
+    justify-content: center;
+}
+
+@keyframes rotation {
+	0% {transform: rotate(90deg);}
+	50% {transform: rotate(180deg);}
+	100% {transform: rotate(360deg);}
+}
+
+#box2 {
+	Animation-name: rotation;
+	Animation-duration: 5s;
+	Animation-iteration-count: infinite;
+	Animation-timing-function: ease-in-out;
+}
+
+html {
+    background-image: linear-gradient(blue, green, purple);
+}
