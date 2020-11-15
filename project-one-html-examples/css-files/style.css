@@ -18,11 +18,11 @@ h1 {
     padding-left: 30px;
 }
 
-nav {
+.nav-index {
     background-color: aqua;
 }
 
-nav ul {
+.nav-ul-index {
     list-style: none;
     align-items: center;
 }
@@ -31,8 +31,8 @@ a {
     text-decoration-line: none;
 }
 
-nav li {
-    background-color: blueviolet;
+.nav-li-index {
+    
     display: inline-block;
     margin: 20px;
     font-size: 30px;
@@ -77,6 +77,16 @@ Img {
 	Animation-timing-function: ease-in-out;
 }
 
-html {
+.index-html {
     background-image: linear-gradient(blue, green, purple);
+}
+
+.nav-wrapper {
+    background-color: purple;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    
 }

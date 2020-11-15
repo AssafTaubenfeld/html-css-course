@@ -1,0 +1,34 @@
+
+body {
+  margin: 40px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  margin: 40px 0px;
+  grid-template-columns: repeat(3, [col] 150px);
+  grid-template-rows: repeat(2, [col] 150px);
+  justify-content: center;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box.D {
+    grid-column: 1 / span 2;
+}
+
+.box.C {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
